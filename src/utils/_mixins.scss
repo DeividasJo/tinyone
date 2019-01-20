@@ -1,0 +1,26 @@
+@mixin arrow{
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 15px;
+}
+@mixin heading{
+  h2{
+    padding-top: 75px;
+    font-size: 25px;
+    font-weight: 700;
+  }
+  p{
+    margin: 25px 20% 0;
+    line-height: 1.3;
+    color: $gray;
+  }
+}
+@mixin btn{
+  border: 2px solid black;
+  outline: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  cursor: pointer;
+}
